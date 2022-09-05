@@ -1,2 +1,4 @@
 # SPRINT
-SPRINT aims to compute the minimum number of hybridisation vertices in a phylogenetic network which can explain the ploidy levels.
+## Liam J. Maher, Taoyang Wu and Katharina T. Huber.
+
+Polyploidy is an important evolutionary driver which has been observed in plants, bacteria, animals and more. An existing algorithm for reconstructing the evolutionary history of polyploid species can be found in Huber et al. (2006), however, this method relies on the existence of so called multilabelled trees which may not be readily available as obtaining these is not trivial. There is currently no tool available which computes the minimum number of hybridisation vertices possible to explain a given set of species ploidy levels. Here, we present the Species Ploidy Realisation of Integers with Networks Tool (SPRINT) software package that has been developed to circumvent the reliance on multilablled trees when obtaining an evolutionary picture from a polyploid dataset.
