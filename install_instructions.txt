@@ -1,0 +1,47 @@
+### Create and activate virtual environment:
+
+pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+
+
+### Download the SPRINT zip file from GitHub at:
+
+https://github.com/lmaher1/SPRINT
+
+# click the green code button on the webpage and then download zip file
+
+### Move the unzipped folder 'SPRINT-main' into ./venv/lib/python3.9/site-packages/ and navigate to the folder within the terminal using 'cd ./venv/lib/python3.9/site-packages/SPRINT-main'.
+
+### Install requirements:
+
+pip install -r requirements.txt
+
+
+### Install Home-brew to then install pygraphviz:
+
+xcode-select --install
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#Enter password and hit enter (possibly multiple times), once complete:
+
+brew install graphviz
+pip install graphviz
+pip install pygraphviz
+
+
+#The authors recommend visualising the network with pygraphviz, if however the user would prefer to not install homebrew and pygraphviz, enter: python SPRINT-nxspring.py
+
+
+
+
+### Running SPRINT:
+
+# With pygraphviz installed:
+
+python SPRINT.py
+
+
+# Without pygraphviz installed:
+
+python SPRINT-nxspring.py
